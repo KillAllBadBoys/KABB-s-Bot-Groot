@@ -1,0 +1,10 @@
+{
+  "name": "MouseBot",
+  "version": "1.0.0",
+  "description": "Mice.",
+  "main": "bot.js",
+  "author": "cezieu",
+  "dependencies": {
+    "discord.js": "^11.3.0"
+  }
+}
