@@ -2,9 +2,9 @@
   "name": "Groot",
   "description": "Mice",
   "version": "1.0.0",
-  "main": "bot.js",
+  "main": "Groot.js",
   "scripts": {
-    "start": "node bot.js"
+    "start": "node Groot.js"
   },
   "dependencies": {
     "discord.js": "11.1.0",
