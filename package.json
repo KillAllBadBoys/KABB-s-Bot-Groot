@@ -2,7 +2,7 @@
   "name": "Groot",
   "description": "Mice",
   "version": "1.0.0",
-  "main": "Groot.js",
+  "main": "bot.js",
   "scripts": {
     "start": "node bot.js"
   },
