@@ -222,4 +222,4 @@ else if (message.content === 'Ofc') C=C+1;
 	
 });
 // Log our bot in
-client.login("NDEyMjg0MzU3ODE0OTExMDE2.DWID1w.uDeA8KSbDhlQbs1j1ljsOIoiH_c");
+client.login(process.env.NDEyMjg0MzU3ODE0OTExMDE2.DWID1w.uDeA8KSbDhlQbs1j1ljsOIoiH_c);
