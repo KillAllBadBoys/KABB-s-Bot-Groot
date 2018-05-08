@@ -1,10 +1,13 @@
 {
   "name": "Groot",
+  "description": "Mice",
   "version": "1.0.0",
-  "description": "Mice.",
   "main": "Groot.js",
-  "author": "KillAllBadBoys",
+  "scripts": {
+    "start": "node Groot.js"
+  },
   "dependencies": {
-    "discord.js": "^11.3.0"
+    "discord.js": "11.1.0",
+    "request": "2.81.0"
   }
 }
