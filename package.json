@@ -1,0 +1,10 @@
+{
+  "name": "Groot",
+  "version": "1.0.0",
+  "description": "Mice.",
+  "main": "Groot.js",
+  "author": "KillAllBadBoys",
+  "dependencies": {
+    "discord.js": "^11.3.0"
+  }
+}
