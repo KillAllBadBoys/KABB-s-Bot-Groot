@@ -187,10 +187,10 @@ else if (message.content === 'Ofc') C=C+1;
  
      if (message.content === "!spam") {	 
       var interval = setInterval (function () {
-        message.channel.send("The early bird may get the worm, but its the second mouse that gets the cheese.")
+        message.channel.send("!clear")
 		message.channel.send("")
-      }, 60000 * 60); 
-	  	 message.channel.send("Spam will start soon!");	
+      }, 60000 * 120); 
+	  	 message.channel.send("Stay clean! :D");	
     }
 	
 	     if (message.content === "!matei") {	 
