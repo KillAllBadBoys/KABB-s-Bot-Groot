@@ -1,1 +1,1 @@
-worker: Groot.js
+worker: node Groot.js
