@@ -213,7 +213,20 @@ else if (message.content === 'Ofc') C=C+1;
 	if (message.content === "BACK") 
     BRB = false;		
 
-	
+	        var messagesplit = message.content.split(" ")	
+		if (message.content.startsWith("!ore")) {
+			if (messagesplit[1]==("luni")) 
+			message.channel.send("```yaml\n"+"1. Info\n2. Info\n3. Sport\n4. Opțional\n5. Fizică\n6. Chimie```\n");
+			else if (messagesplit[1]==("marti")) 
+			message.channel.send("```yaml\n"+"1. Logică\n2. Germană/Franceză\n3. Fizică\n4. Română\n5. Mate\n6. Mate```\n");
+			else if (messagesplit[1]==("miercuri")) 
+			message.channel.send("```yaml\n"+"1. Bio\n2. Germană/Franceză\n3. Chimie\n4. T.I.C.\n5. Engleză```\n");		
+			else if (messagesplit[1]==("joi")) 
+			message.channel.send("```yaml\n"+"1. Mate\n2. Mate\n3. Geografie\n4. Engleză\n5. Română\n6. Română\n7. T.I.C.```\n");
+			else if (messagesplit[1]==("vineri")) 
+			message.channel.send("```yaml\n"+"1. Română\n2. Dirigenție\n3. Biologie\n4. Muzică/Desen\n5. Istorie\n6. Fizică```\n");
+			else message.channel.send("```css\n"+"Introduceți o comandă validă!\n-> !ore luni```\n");		
+		}
 	
 //	if (message.content === '!D') 
 //	{	userRoles.forEach(function(role)
