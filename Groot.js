@@ -187,7 +187,7 @@ else if (message.content === 'Ofc') C=C+1;
  
      if (message.content === "!spam") {	 
       var interval = setInterval (function () {
-        message.channel.send("!clear")
+        message.channel.send("!clean")
 		message.channel.send("")
       }, 60000 * 120); 
 	  	 message.channel.send("Stay clean! :D");	
