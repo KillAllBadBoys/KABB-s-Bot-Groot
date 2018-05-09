@@ -190,7 +190,7 @@ else if (message.content === 'Ofc') C=C+1;
         message.channel.send("!clean")
 		message.channel.send("")
       }, 60000 * 120); 
-	  	 message.channel.send("Stay clean! :D");	
+	  	 message.channel.send("Stay clean! xD");	
     }
 	
 	     if (message.content === "!matei") {	 
